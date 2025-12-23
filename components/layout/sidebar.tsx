@@ -13,6 +13,7 @@ import {
   Building2,
   ChevronLeft,
   ChevronRight,
+  Info,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -46,6 +47,11 @@ const menuItems = [
     title: "Məlumat Bazası",
     href: "/database",
     icon: Database,
+  },
+  {
+    title: "Haqqımızda",
+    href: "/about",
+    icon: Info,
   },
 ];
 
