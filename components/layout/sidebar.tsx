@@ -66,6 +66,7 @@ export function Sidebar() {
   } = useSidebar();
 
   const handleLogout = () => {
+    setIsMobileOpen(false); // Close sidebar on logout
     logout();
     router.push("/login");
   };

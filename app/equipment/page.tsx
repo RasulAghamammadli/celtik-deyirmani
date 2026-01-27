@@ -29,8 +29,8 @@ const equipment = [
     price: "2,500 $",
     description:
       "Titrəyən ələk vasitəsilə iri, kiçik və yüngül çirkləri ayırır. Düyü, buğda və digər taxılın ilkin təmizlənməsi üçün.",
-    lastMaintenance: "2024-01-15",
-    nextMaintenance: "2024-02-15",
+    lastMaintenance: "2025-12-15",
+    nextMaintenance: "2026-01-15",
     videoUrl:
       "https://via.placeholder.com/640x360?text=TQLZ100+Titrəmə+Təmizləyicisi",
   },
@@ -45,8 +45,8 @@ const equipment = [
     price: "2,000 $",
     description:
       "Taxıl, düyü və paxlalı məhsullardan daşları və ağır çirkləri ayırmaq üçün. Vibrasiya lövhəsi ilə çəkisinə görə ayrılma.",
-    lastMaintenance: "2024-01-10",
-    nextMaintenance: "2024-02-10",
+    lastMaintenance: "2025-12-10",
+    nextMaintenance: "2026-01-10",
     videoUrl: "https://via.placeholder.com/640x360?text=TQSX100+Destoner",
   },
   {
@@ -60,8 +60,8 @@ const equipment = [
     price: "2,500 $",
     description:
       "Düyünün qabığını soyur. Silindrik tambur/rulonlar arasında hərəkət edərək qabığı düyü dənəsindən ayırır.",
-    lastMaintenance: "2024-01-12",
-    nextMaintenance: "2024-02-12",
+    lastMaintenance: "2025-12-12",
+    nextMaintenance: "2026-01-12",
     videoUrl: "https://via.placeholder.com/640x360?text=MLGT36+Husker",
   },
   {
@@ -75,8 +75,8 @@ const equipment = [
     price: "2,000 $",
     description:
       "Vibrasiya lövhəsi ilə taxıl ölçü və qalınlıq fərqinə görə fərqli çıxışlara yönləndirilir. Böyük, orta və kiçik dənələr ayrılır.",
-    lastMaintenance: "2024-01-14",
-    nextMaintenance: "2024-02-14",
+    lastMaintenance: "2025-12-14",
+    nextMaintenance: "2026-01-14",
     videoUrl: "https://via.placeholder.com/640x360?text=MGCZ100x12+Separator",
   },
   {
@@ -90,8 +90,8 @@ const equipment = [
     price: "2,600 $",
     description:
       "Təmizlənmiş düyü dənələrini sürtünmə və yüngül təzyiq vasitəsilə qabıq qalıqlarından və səthi ləkələrdən təmizləyir.",
-    lastMaintenance: "2024-01-16",
-    nextMaintenance: "2024-02-16",
+    lastMaintenance: "2025-12-16",
+    nextMaintenance: "2026-01-16",
     videoUrl: "https://via.placeholder.com/640x360?text=MNSW18+Ağardıcı+1",
   },
   {
@@ -105,8 +105,8 @@ const equipment = [
     price: "2,600 $",
     description:
       "Təmizlənmiş düyü dənələrini sürtünmə və yüngül təzyiq vasitəsilə qabıq qalıqlarından və səthi ləkələrdən təmizləyir.",
-    lastMaintenance: "2024-01-17",
-    nextMaintenance: "2024-02-17",
+    lastMaintenance: "2025-12-17",
+    nextMaintenance: "2026-01-17",
     videoUrl: "https://via.placeholder.com/640x360?text=MNSW18+Ağardıcı+2",
   },
   {
@@ -120,8 +120,8 @@ const equipment = [
     price: "2,600 $",
     description:
       "Təmizlənmiş düyü dənələrini sürtünmə və yüngül təzyiq vasitəsilə qabıq qalıqlarından və səthi ləkələrdən təmizləyir.",
-    lastMaintenance: "2024-01-25",
-    nextMaintenance: "2024-01-30",
+    lastMaintenance: "2025-12-25",
+    nextMaintenance: "2025-12-30",
     videoUrl: "https://via.placeholder.com/640x360?text=MNSW18+Ağardıcı+3",
   },
   {
@@ -135,8 +135,8 @@ const equipment = [
     price: "5,200 $",
     description:
       "Düyü dənələrini ölçü və keyfiyyətinə görə çeşidləmək üçün istifadə olunur.",
-    lastMaintenance: "2024-01-18",
-    nextMaintenance: "2024-02-18",
+    lastMaintenance: "2025-12-18",
+    nextMaintenance: "2026-01-18",
     videoUrl: "https://via.placeholder.com/640x360?text=MJP100x4+Qreyder",
   },
   {
@@ -150,8 +150,8 @@ const equipment = [
     price: "6,000 $",
     description:
       "Düyü və taxıl emalı zavodlarında istifadə olunan avtomatik qablaşdırma maşını.",
-    lastMaintenance: "2024-01-20",
-    nextMaintenance: "2024-02-20",
+    lastMaintenance: "2025-12-20",
+    nextMaintenance: "2026-01-20",
     videoUrl: "https://via.placeholder.com/640x360?text=Kovan+LDT150+1",
   },
   {
@@ -165,8 +165,8 @@ const equipment = [
     price: "6,000 $",
     description:
       "Düyü və taxıl emalı zavodlarında istifadə olunan avtomatik qablaşdırma maşını.",
-    lastMaintenance: "2024-01-21",
-    nextMaintenance: "2024-02-21",
+    lastMaintenance: "2025-12-21",
+    nextMaintenance: "2026-01-21",
     videoUrl: "https://via.placeholder.com/640x360?text=Kovan+LDT150+2",
   },
   {
@@ -180,8 +180,8 @@ const equipment = [
     price: "6,000 $",
     description:
       "Düyü və taxıl emalı zavodlarında istifadə olunan avtomatik qablaşdırma maşını.",
-    lastMaintenance: "2024-01-22",
-    nextMaintenance: "2024-02-22",
+    lastMaintenance: "2025-12-22",
+    nextMaintenance: "2026-01-22",
     videoUrl: "https://via.placeholder.com/640x360?text=Kovan+LDT150+3",
   },
   {
@@ -195,8 +195,8 @@ const equipment = [
     price: "6,000 $",
     description:
       "Düyü və taxıl emalı zavodlarında istifadə olunan avtomatik qablaşdırma maşını.",
-    lastMaintenance: "2024-01-23",
-    nextMaintenance: "2024-02-23",
+    lastMaintenance: "2025-12-23",
+    nextMaintenance: "2026-01-23",
     videoUrl: "https://via.placeholder.com/640x360?text=Kovan+LDT150+4",
   },
   {
@@ -209,8 +209,8 @@ const equipment = [
     capacity: "Çəltik qurutma",
     price: "3,000 $",
     description: "Çəltik dənələrini qurutmaq üçün istifadə olunan avadanlıq.",
-    lastMaintenance: "2024-01-08",
-    nextMaintenance: "2024-02-08",
+    lastMaintenance: "2025-12-08",
+    nextMaintenance: "2026-01-08",
     videoUrl: "https://via.placeholder.com/640x360?text=Quruducu+1",
   },
   {
@@ -223,8 +223,8 @@ const equipment = [
     capacity: "Çəltik qurutma",
     price: "3,000 $",
     description: "Çəltik dənələrini qurutmaq üçün istifadə olunan avadanlıq.",
-    lastMaintenance: "2024-01-09",
-    nextMaintenance: "2024-02-09",
+    lastMaintenance: "2025-12-09",
+    nextMaintenance: "2026-01-09",
     videoUrl: "https://via.placeholder.com/640x360?text=Quruducu+2",
   },
   {
@@ -237,8 +237,8 @@ const equipment = [
     capacity: "Çəltik qurutma",
     price: "3,000 $",
     description: "Çəltik dənələrini qurutmaq üçün istifadə olunan avadanlıq.",
-    lastMaintenance: "2024-01-10",
-    nextMaintenance: "2024-02-10",
+    lastMaintenance: "2025-12-10",
+    nextMaintenance: "2026-01-10",
     videoUrl: "https://via.placeholder.com/640x360?text=Quruducu+3",
   },
   {
@@ -251,8 +251,8 @@ const equipment = [
     capacity: "Çəltik qurutma",
     price: "3,000 $",
     description: "Çəltik dənələrini qurutmaq üçün istifadə olunan avadanlıq.",
-    lastMaintenance: "2024-01-11",
-    nextMaintenance: "2024-02-11",
+    lastMaintenance: "2025-12-11",
+    nextMaintenance: "2026-01-11",
     videoUrl: "https://via.placeholder.com/640x360?text=Quruducu+4",
   },
   {
@@ -266,8 +266,8 @@ const equipment = [
     price: "5,500 $",
     description:
       "Zavodda toz və çirkləri təmizləmək üçün istifadə olunan sistem.",
-    lastMaintenance: "2024-01-19",
-    nextMaintenance: "2024-02-19",
+    lastMaintenance: "2025-12-19",
+    nextMaintenance: "2026-01-19",
     videoUrl: "https://via.placeholder.com/640x360?text=Tozsorucu",
   },
 ];

@@ -1,6 +1,13 @@
 "use client";
 
-import { createContext, useContext, useState, ReactNode } from "react";
+import {
+  createContext,
+  useContext,
+  useState,
+  useEffect,
+  ReactNode,
+} from "react";
+import { usePathname } from "next/navigation";
 
 interface SidebarContextType {
   isDesktopCollapsed: boolean;
@@ -14,6 +21,14 @@ const SidebarContext = createContext<SidebarContextType | undefined>(undefined);
 export function SidebarProvider({ children }: { children: ReactNode }) {
   const [isDesktopCollapsed, setIsDesktopCollapsed] = useState(false);
   const [isMobileOpen, setIsMobileOpen] = useState(false);
+  const pathname = usePathname();
+
+  // Reset mobile sidebar state when navigating to login page
+  useEffect(() => {
+    if (pathname === "/login") {
+      setIsMobileOpen(false);
+    }
+  }, [pathname]);
 
   return (
     <SidebarContext.Provider
@@ -36,4 +51,3 @@ export function useSidebar() {
   }
   return context;
 }
-

@@ -1,29 +1,35 @@
-"use client"
+"use client";
 
-import { useEffect } from "react"
-import { useRouter } from "next/navigation"
-import { isAuthenticated } from "@/lib/auth"
-import { Sidebar } from "@/components/layout/sidebar"
-import { Header } from "@/components/layout/header"
-import { useSidebar } from "@/components/layout/sidebar-context"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
-import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
-import { Search, Download, Upload, Filter } from "lucide-react"
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
+import { isAuthenticated } from "@/lib/auth";
+import { Sidebar } from "@/components/layout/sidebar";
+import { Header } from "@/components/layout/header";
+import { useSidebar } from "@/components/layout/sidebar-context";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
+import { Search, Download, Upload, Filter } from "lucide-react";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select"
+} from "@/components/ui/select";
 
 // Demo database records
 const databaseRecords = [
   {
     id: 1,
-    date: "2024-01-20",
+    date: "2025-12-20",
     product: "Yüksək keyfiyyətli düyü",
     quantity: 1500,
     unit: "kq",
@@ -34,7 +40,7 @@ const databaseRecords = [
   },
   {
     id: 2,
-    date: "2024-01-20",
+    date: "2025-12-20",
     product: "Standart düyü",
     quantity: 2300,
     unit: "kq",
@@ -45,7 +51,7 @@ const databaseRecords = [
   },
   {
     id: 3,
-    date: "2024-01-19",
+    date: "2025-12-19",
     product: "Yüksək keyfiyyətli düyü",
     quantity: 1800,
     unit: "kq",
@@ -56,7 +62,7 @@ const databaseRecords = [
   },
   {
     id: 4,
-    date: "2024-01-19",
+    date: "2025-12-19",
     product: "Premium düyü",
     quantity: 950,
     unit: "kq",
@@ -67,7 +73,7 @@ const databaseRecords = [
   },
   {
     id: 5,
-    date: "2024-01-18",
+    date: "2025-12-18",
     product: "Standart düyü",
     quantity: 2100,
     unit: "kq",
@@ -78,7 +84,7 @@ const databaseRecords = [
   },
   {
     id: 6,
-    date: "2024-01-18",
+    date: "2025-12-18",
     product: "Yüksək keyfiyyətli düyü",
     quantity: 1650,
     unit: "kq",
@@ -89,7 +95,7 @@ const databaseRecords = [
   },
   {
     id: 7,
-    date: "2024-01-17",
+    date: "2026-01-17",
     product: "Standart düyü",
     quantity: 2400,
     unit: "kq",
@@ -100,7 +106,7 @@ const databaseRecords = [
   },
   {
     id: 8,
-    date: "2024-01-17",
+    date: "2026-01-17",
     product: "Premium düyü",
     quantity: 1100,
     unit: "kq",
@@ -109,20 +115,20 @@ const databaseRecords = [
     operator: "Aygün Əliyeva",
     status: "təsdiqlənib",
   },
-]
+];
 
 export default function DatabasePage() {
-  const router = useRouter()
-  const { isDesktopCollapsed } = useSidebar()
+  const router = useRouter();
+  const { isDesktopCollapsed } = useSidebar();
 
   useEffect(() => {
     if (!isAuthenticated()) {
-      router.push("/login")
+      router.push("/login");
     }
-  }, [router])
+  }, [router]);
 
   if (!isAuthenticated()) {
-    return null
+    return null;
   }
 
   return (
@@ -133,7 +139,9 @@ export default function DatabasePage() {
         <main className="p-4 lg:p-6">
           <div className="space-y-6">
             <div>
-              <h1 className="text-3xl font-bold tracking-tight">Məlumat Bazası</h1>
+              <h1 className="text-3xl font-bold tracking-tight">
+                Məlumat Bazası
+              </h1>
               <p className="text-muted-foreground">
                 İstehsal məlumatlarının idarəetməsi və axtarışı
               </p>
@@ -217,9 +225,15 @@ export default function DatabasePage() {
                         <th className="text-left p-4 font-semibold">Tarix</th>
                         <th className="text-left p-4 font-semibold">Məhsul</th>
                         <th className="text-left p-4 font-semibold">Miqdar</th>
-                        <th className="text-left p-4 font-semibold">Keyfiyyət</th>
-                        <th className="text-left p-4 font-semibold">Avadanlıq</th>
-                        <th className="text-left p-4 font-semibold">Operator</th>
+                        <th className="text-left p-4 font-semibold">
+                          Keyfiyyət
+                        </th>
+                        <th className="text-left p-4 font-semibold">
+                          Avadanlıq
+                        </th>
+                        <th className="text-left p-4 font-semibold">
+                          Operator
+                        </th>
                         <th className="text-left p-4 font-semibold">Status</th>
                       </tr>
                     </thead>
@@ -276,6 +290,5 @@ export default function DatabasePage() {
         </main>
       </div>
     </div>
-  )
+  );
 }
-

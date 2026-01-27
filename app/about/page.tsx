@@ -945,15 +945,15 @@ export default function AboutPage() {
                   </div>
 
                   {/* Navigation */}
-                  <div className="mt-8 flex items-center justify-between">
+                  <div className="mt-8 flex items-center justify-between gap-2">
                     <Button
                       variant="outline"
                       size="lg"
                       onClick={prevSlide}
                       disabled={currentSlide === 0}
-                      className="flex items-center gap-2"
+                      className="flex items-center gap-2 h-9 px-3 sm:h-10 sm:px-4"
                     >
-                      <ChevronLeft className="h-5 w-5" />
+                      <ChevronLeft className="h-4 w-4 sm:h-5 sm:w-5" />
                       <span className="hidden sm:inline">Əvvəlki</span>
                     </Button>
 
@@ -978,10 +978,10 @@ export default function AboutPage() {
                       size="lg"
                       onClick={nextSlide}
                       disabled={currentSlide === slides.length - 1}
-                      className="flex items-center gap-2"
+                      className="flex items-center gap-2 h-9 px-3 sm:h-10 sm:px-4"
                     >
                       <span className="hidden sm:inline">Növbəti</span>
-                      <ChevronRight className="h-5 w-5" />
+                      <ChevronRight className="h-4 w-4 sm:h-5 sm:w-5" />
                     </Button>
                   </div>
 
