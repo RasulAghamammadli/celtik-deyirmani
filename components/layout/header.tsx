@@ -46,7 +46,7 @@ export function Header() {
               <Menu className="h-5 w-5" />
             )}
           </Button>
-          <h2 className="text-lg font-semibold">Admin Panel</h2>
+          <h2 className="text-lg font-semibold">İdarəetmə Paneli</h2>
         </div>
 
         <div className="flex items-center gap-4">

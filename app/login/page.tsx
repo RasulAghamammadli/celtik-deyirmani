@@ -49,7 +49,7 @@ export default function LoginPage() {
           </div>
           <CardTitle className="text-3xl font-bold">Giriş</CardTitle>
           <CardDescription>
-            Çəltik Dəyirmanı Admin Paneline xoş gəlmisiniz
+            Çəltik Dəyirmanı İdarəetmə Panelinə xoş gəlmisiniz
           </CardDescription>
         </CardHeader>
         <CardContent>

@@ -6,7 +6,7 @@ import { SidebarProvider } from "@/components/layout/sidebar-context";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Çəltik Dəyirmanı - Admin Panel",
+  title: "Çəltik Dəyirmanı - İdarəetmə Paneli",
   description: "Çəltik dəyirmanı idarəetmə sistemi",
 };
 
